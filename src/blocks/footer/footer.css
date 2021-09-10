@@ -1,0 +1,19 @@
+.footer {
+  padding: 0 24px 36px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.footer__text {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  color: #6B7280;
+}
+
+@media (min-width: 640px) {
+  .footer {
+    padding: 0 0 24px 36px;
+  }
+}

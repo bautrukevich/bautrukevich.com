@@ -1,0 +1,13 @@
+.emoji {
+  font-size: 18px;
+}
+
+.emoji_size_bigger {
+  font-size: 24px;
+}
+
+@media (min-width: 640px) {
+  .emoji {
+    font-size: 32px;
+  }
+}

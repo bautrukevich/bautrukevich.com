@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hey 👋, I'm Siarhei Bautrukevich</title>
+
+    <script type="module">
+      document.documentElement.classList.remove('no-js')
+      document.documentElement.classList.add('js')
+    </script>
+
+    <link rel="stylesheet" href="./src/pages/index.css">
+
+    <meta name="description" content="Front-end engineer, with an understanding of fundamentals, fresh standards and instruments.">
+    <meta property="og:title" content="Hey 👋, I'm Siarhei Bautrukevich">
+    <meta property="og:description" content="Front-end engineer, with an understanding of fundamentals, fresh standards and instruments.">
+    <meta property="og:image" content="/social.jpg">
+    <meta property="og:image:alt" content="Siarhei Bautrukevich — Front-end engineer">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://bautrukevich.com">
+    <link rel="canonical" href="https://bautrukevich.com">
+
+    <link rel="icon" href="/favicon.ico" />
+    <!-- 32×32 -->
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <!-- 512×512 -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- 180×180 -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#FF00FF" />
   </head>
-  <body>
-    <script type="module" src="/src/main.ts"></script>
+
+  <body class="page">
+    <header class="header">
+      <img class="header__photo" src="/photo.jpg" alt="Siarhei Bautrukevich photo" width="240" height="240">
+      <div class="header__wrapper">
+        <h1 class="header__title">I'm&nbsp;Siarhei Bautrukevich,<br>from Belarus. </h1>
+        <h2 class="header__subtitle">Hey <span class="emoji emoji_size_bigger header__emoji">👋</span><br></h2>
+      </div>
+    </header>
+    <main class="content">
+      <h2 class="content__title">Passionate about mentorship, programming, web and open source.</h2>
+
+      <p class="content__text"><span class="emoji">🧔</span> Former <b>Designer</b>, <b>Full-stack
+        developer</b>. Now
+        <b>Front-end engineer</b>, with an understanding of fundamentals, fresh standards and instruments.</p>
+      <p class="content__text"><span class="emoji">🧙</span> <b>Mentor</b> for junior developers or for who make the first steps in
+        web.<br>Creator
+        of <a
+        href="https://t.me/j_f_mentorship" class="link" target="_blank" rel="noopener">"My dear, junior frontend
+          developer"</a> community.</p>
+      <p class="content__text">By any questions feel free to contact me with <a href="https://t.me/bautrukevich" class="link"
+                                                                       target="_blank" rel="noopener">Telegram</a>.
+      </p>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">My <a href="https://github.com/bautrukevich" class="link" target="_blank"
+                                   rel="noopener">GitHub
+        Profile</a>, <a href="https://twitter.com/s_bautrukevich" class="link" target="_blank"
+                        rel="noopener">Twitter</a> and <a href="https://patreon.com/bautrukevich" class="link"
+                                                          target="_blank" rel="noopener">Patreon</a>. </p>
+    </footer>
   </body>
 </html>
